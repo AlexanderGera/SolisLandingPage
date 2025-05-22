@@ -1,0 +1,64 @@
+//fonts & colors
+
+$regular-text-font: 'Lato', sans-serif;
+$title-text-font: 'Playfair Display', serif;
+
+$regular-text-color: #262A3F;
+$title-italic-text-color: #85BBB1;
+$dark-theme-title-italic-text-color: #689FF2;
+$white-text-color: #ffff;
+$grey-color: #E4E4E4;
+$dark-theme-background-color: #161926;
+
+$button-regular-orange-color: #ff745e;
+$button-active-orange-color: #E54F3A;
+$button-active-border-style: 1px solid #E54F3A;
+$button-regular-border-style: 1px solid #e8d4d4;
+$dark-theme-button-regular-green-color: #53F3CD;
+$dark-theme-button-active-green-color: #02E0AB;
+$dark-theme-regular-border-style: 1px solid #515773;
+$dark-theme-button-active-border-style: 1px solid #02E0AB;
+
+//mixin
+
+@mixin header-menu-font {
+  font-family: $regular-text-font;
+  color: $button-active-orange-color;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  display: block;
+  z-index: 0;
+}
+
+@mixin title-text-style {
+  font-family: $title-text-font;
+  font-weight: 400;
+  color: $regular-text-color;
+}
+
+@mixin regular-text-style {
+  font-family: $regular-text-font;
+  color: $regular-text-color;
+  font-weight: 300;
+}
+
+@mixin button-link-style {
+  font-family: $regular-text-font;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  z-index: 0;
+}
+
+@mixin  white-regular-text {
+  font-family: $regular-text-font;
+  font-weight: 400;
+  letter-spacing: 0.10em;
+  color: #ffff;
+}
+
+
+
